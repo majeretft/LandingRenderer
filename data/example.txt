@@ -1,0 +1,55 @@
+# >>> XXX - Маркер позиции для вставки, где ХХХ любое число иди текст без пробелов
+#    Добавляем теги и/или текст после тега <template data-tpl="XXX"></template>
+#    Можно добавлять несколько разных позиций для вставки
+#
+# > tag#id.class-1.class-2 - Добавить тег вида <tag id="id" class="class-1 class-2">
+#     Добавляет указанный тег после маркера ХХХ
+#
+# > text - простой текстовый элемент (без тега, id и классы не применимы)
+#
+# В конце работы все маркеры <template data-tpl="XXX"></template> удаляются из результата
+
+>>> 1
+> h1.tm-title.tm-title_h1
+Test h1 header
+
+>>> 2
+
+> img#test-id.test-class
+https://cdn-icons-png.flaticon.com/512/12392/12392887.png
+test image alt
+
+> p
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae asperiores omnis esse.
+
+> h2
+Test h2 header
+
+> p
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque consequuntur corrupti sed consequatur velit
+laboriosam fuga fugiat quaerat vero rem voluptatibus expedita quisquam itaque aperiam, facere facilis animi! Expedita,
+cupiditate?
+
+> img
+https://cdn-icons-png.flaticon.com/512/12392/12392886.png
+
+> p
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae asperiores omnis esse.
+
+> h2
+Test h2 header 2
+
+> p
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sapiente necessitatibus corporis minus reprehenderit odio.
+Ullam quod dolorum officia accusamus recusandae debitis odit distinctio?
+
+> br
+
+> text
+Cum sapiente necessitatibus corporis minus reprehenderit odio.
+Ullam quod dolorum officia accusamus recusandae debitis odit distinctio?
+
+>>> 3
+
+> p
+ООО «КМД - ЭДС» 115569,Г. МОСКВА, УЛ. ШИПИЛОВСКАЯ, ДОМ 1, ПОМЕЩЕНИЕ I, ЭТАЖ 2, КОМНАТА 8, ОФИС 3 ОГРН 5147746375904
